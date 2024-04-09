@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Website</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <form id="container">
+        <h1 id="h1">Password Generator</h1><br>
+        <label for="passwordLength">Password Length : </label>
+        <input type="number" id="passwordLength" min="8" value="8"><br>
+        <label>Lowercase Caracters : </label>
+        <input type="radio" id="yesL" name="Lowercase">
+        <label for="yes">yes</label>
+        <input type="radio" id="noL" name="Lowercase">
+        <label for="yes">no</label>
+        <br>
+        <label>Uppercase Caracters : </label>
+        <input type="radio" id="yesU" name="Uppercase">
+        <label for="yes">yes</label>
+        <input type="radio" id="noU" name="Uppercase">
+        <label for="yes">no</label>
+        <br>
+        <label>Numbers : </label>
+        <input type="radio" id="yesN" name="Numbers">
+        <label for="yes">yes</label>
+        <input type="radio" id="noN" name="Numbers">
+        <label for="yes">no</label>
+        <br>
+        <label>Symbols : </label>
+        <input type="radio" id="yesS" name="Symbols">
+        <label for="yes">yes</label>
+        <input type="radio" id="noS" name="Symbols">
+        <label for="yes">no</label>
+        <br>
+        <button type="button" id="generate">Generate</button><br>
+        <p id="password"></p>
+
+        
+
+    </form>
+    <script src="index.js"></script>
+</body>
+</html>

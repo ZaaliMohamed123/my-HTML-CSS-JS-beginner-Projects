@@ -1,0 +1,49 @@
+body{
+    background-color: black;
+}
+h1{
+    color: red;
+    font-size: 3em;
+}
+#container{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    background-color: white;
+    padding: 10px 3px;
+    border-radius: 25px;
+    width: 75%;
+    margin: auto;
+}
+button{
+    margin: 10px;
+    background-color: hsl(210, 100%, 50%);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 15px;
+    font-weight: bold;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+button:hover{
+    background-color: hsl(210, 100%, 60%);
+}
+button:active{
+    background-color: hsl(210, 100%, 70%);
+}
+#passwordLength{
+    font-size: 1rem;
+    width: 150px;
+    font-weight: bold;
+    text-align: center;
+}
+form label,input{
+    margin: 10px;
+    font-size: 1.2em;
+}
+#password{
+    font-weight: bold;
+    font-size: 2em;
+}
+

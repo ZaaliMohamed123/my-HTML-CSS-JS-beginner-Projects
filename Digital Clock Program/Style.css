@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    background-image: url(images/belle-photo-tour-hassan-rabat-maroc.jpg);
+    background-position:bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#clock-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+@font-face {
+    font-family: RedditMono ;
+    src: url("fonts/RedditMono-VariableFont_wght.ttf");
+}
+#clock{
+    font-size: 6rem;
+    font-family:RedditMono;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+/*to add background blur*/
+    backdrop-filter: blur(2px);
+    width: 100%;
+    /*to have some glass effect*/
+    background-color: hsla(0, 0%, 100%, 0.1);
+
+
+}
